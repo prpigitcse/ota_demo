@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ota_demo.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ota_demo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ota_demo module.
+    case 'help.page.ota_demo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('OTA Demo Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

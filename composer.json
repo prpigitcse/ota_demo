@@ -1,0 +1,13 @@
+{
+    "name": "ota_demo",
+    "type": "drupal-module",
+    "description": "OTA Demo Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ota_demo",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ota_demo",
+        "source": "http://cgit.drupalcode.org/ota_demo",
+    }
+}
